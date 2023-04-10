@@ -20,4 +20,10 @@ public class CalculatorTest {
     public void canSubtractNumbers(){
         assertEquals(3,calculator.subtract(10,7));
     }
+    @Test
+    public void canMultiplyNumbers(){
+        assertEquals(21,calculator.multiply(3,7));
+    }
+
+
 }
